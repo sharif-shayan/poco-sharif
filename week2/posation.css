@@ -1,0 +1,47 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 50px 0;
+    margin: 0;
+    color: black;
+    text-align: center;
+    background-color: white; 
+}
+h1{
+    margin-bottom: 40px;
+}
+
+#photos .item{
+    display: inline-block;
+    float: left;
+    padding: 0 5%;
+    margin-bottom: 40px;
+    width: 40%;
+    text-align: center;
+   
+    
+}
+#photos p{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.container{
+    padding: 40px;
+    width: 1120px;
+    margin: 0 auto;
+    background-color: white;
+   
+}
+.button{
+    text-decoration: none;
+    color: black;
+    padding: 10px 40px;
+    border: 1px solid black;
+    display: inline-block;
+
+}
+.container h2{
+    background-color: white;
+
+}
