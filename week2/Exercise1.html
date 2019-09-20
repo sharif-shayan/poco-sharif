@@ -1,103 +1,131 @@
 <!DOCTYPE html>
-  <html lang="en">
-     <head>
+<html lang="en">
+<head>
        <meta charset="UTF-8">
        <meta name="viewport" content="width=device-width, initial-scale=1.0">
        <meta http-equiv="X-UA-Compatible" content="ie=edge">
        <title>Dayly Exercise</title>
        <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
        <link rel="stylesheet" href=style.css">
-     </head>
-         <body>     <div>
-           <style>
-             body {
-               background-color: lightblue;
-                  } 
-             h2 {
-               color: green;
-               text-align: left;
-              /* font-family: 'Lato', sans-serif;
-               font-family: 'Roboto Mono', monospace;
-               font-family: 'Monoton', cursive;*/
-                }         
-              p {
-               font-family: sans-serif;
-               font-size: 14px;
-                }
-             div {
-               /* border: 1px solid black;*/
-                margin-top: 10px;
-                margin-bottom: 10px;
-                margin-right: 10px;
-                margin-left: 10px;
-                 }
-          #footer{
-                 color: green;
-                 }
-            </style>
-                  <h2>HTML Forms</h2>
-                  <form action="/action_page.php">
-                    <h3>
-                      First name:<br>
-                      <input type="text" name="firstname" value="" autofocus><br>
-         
-                      Last name:<br>
-                      <input type="text" name="lastname" value="" autocomplete><br>
-         
-                      Moblie:<br>
-                      <input type="text" name="mobile" value="" autofocus><br>
-         
-                      City: <br>
-                      <input type="text" value="" autofocus list="City" name="City">
-              <datalist id="City">
-                      <option value="Zurich">
-                      <option value="Bern">
-                      <option value="Aargau">
-                      <option value="Genf">
-                      <option value="Basel">
-              </datalist>
-              </h3>
+</head>
 
-             <h2>Which one?</h2>
-             <h3> 
-                <input type="checkbox" name="vehicle1" value="Bike"> I have a bike<br>
-                <input type="checkbox" name="vehicle2" value="Car"> I have a car<b>
-             </h3>
-             <h2>your gender?</h2>
-             <h3>
-                <input type="radio" name="gender" value="male"> Male<br>
-                <input type="radio" name="gender" value="female"> Female<br>
-                <input type="radio" name="gender" value="other"> Other<br> 
-                <input type="submit" value="Submit"> <br> 
-             </h3>
-             </form> 
+<body>
+<div>
+<style>
+body {
+       background-color: lightblue;
+     } 
+h2 {
+       color: green;
+       text-align: left;
+      /* font-family: 'Lato', sans-serif;
+         font-family: 'Roboto Mono', monospace;
+         font-family: 'Monoton', cursive;*/
+    }         
+p {
+       font-family: sans-serif;
+       font-size: 14px;
+  }
+div {
+       /* border: 1px solid black;*/
+          margin-top: 10px;
+          margin-bottom: 10px;
+          margin-right: 10px;
+          margin-left: 10px;
+    }
+footer{
+          color: red; 
+          font-size: 12px;
+      }
+p{
+          font-size: 1em;
+      }
+strong{
+          font-size: 1.5em;
+      }
+em{
+          font-size: 1.3em;
+  }
+
+</style>
+      <h2>HTML Forms</h2>
+      <form action="/action_page.php">
+  <h3>
+      First name:<br>
+     <input type="text" name="firstname" value="" autofocus><br>
+         
+      Last name:<br>
+     <input type="text" name="lastname" value="" autocomplete><br>
+         
+      Moblie:<br>
+     <input type="text" name="mobile" value="" autofocus><br>
+         
+      City: <br>
+     <input type="text" value="" autofocus list="City" name="City">
+     <datalist id="City">
+              <option value="Zurich">
+              <option value="Bern">
+              <option value="Aargau">
+              <option value="Genf">
+              <option value="Basel">
+     </datalist>
+ </h3>
+
+     <h2>Which one?</h2>
+ <h3> 
+     <input type="checkbox" name="vehicle1" value="Bike"> I have a bike<br>
+     <input type="checkbox" name="vehicle2" value="Car"> I have a car<b>
+ </h3>
+     <h2>your gender?</h2>
+ <h3>
+     <input type="radio" name="gender" value="male"> Male<br>
+     <input type="radio" name="gender" value="female"> Female<br>
+     <input type="radio" name="gender" value="other"> Other<br> 
+     <input type="submit" value="Submit"> <br> 
+ </h3>
+</form> 
+                    
+<h2>An unordered HTML list</h2>
+<ul>
+     <li>Coffee</li>
+     <li>Tea</li>
+     <li>Milk</li>
+</ul>
+
+<h2>An ordered HTML list</h2>
+<ol>
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+</ol> 
+                
+      <p>Hier I usesd sans-serif font for test.</p>
+<h2>It is me</h2>
+      <img src="picforexercise.jpeg" alt="pic for exercise" width="500" height="500">
+
+<h2>Contact me</h2>
+      <a href="https://powercoders.org/">This is my school page link</a> <br>
+      <a href="sharif.shayan@powercoders.org">write me  email</a> <br>
+      <a href="tel: 077 939 52 91">Call me dirictly</a><br>
+                    
+<section>
+<h2>This is a strong test</h2>
+<p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Inventore dolor odio sed est eligendi! <strong>1999</strong> Deleniti.
+</p>
+<h2> this is an em test</h2>
+<p>                        
+      Lorem ipsum dolor sit amet consectetur <em>Schweiz</em> adipisicing elit.
+      Dicta accusamus saepe error in repudiandae minima,
+      tempora impedit distinctio ullam sequi! Ex ducimus ullam dicta saepe.
+</p>
+</section>
              
-        <h2>An unordered HTML list</h2>
-         <ul>
-          <li>Coffee</li>
-          <li>Tea</li>
-          <li>Milk</li>
-        </ul>
+<footer>
+      <p>&copy;2019 Sharif, Zurich.</p>
+</footer>
 
-        <h2>An ordered HTML list</h2>
-           <ol>
-           <li>Coffee</li>
-           <li>Tea</li>
-           <li>Milk</li>
-           </ol> 
-         
-           <p>Hier I usesd sans-serif font for test.</p>
-              <h2>It is me</h2>
-                 <img src="picforexercise.jpeg" alt="pic for exercise" width="500" height="500">
-
-              <h2>Contact me</h2>
-                  <a href="https://powercoders.org/">This is my school page link</a> <br>
-                  <a href="sharif.shayan@powercoders.org">write me  email</a> <br>
-                  <a href="tel: 077 939 52 91">Call me dirictly</a><br>
-                     
-                  <footer>
-                             <p>&copy;2019 Sharif, Zurich.</p>
-                      </footer>
-
-                    </div></body>
+</div>
+</body>
 </html>
