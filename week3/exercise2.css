@@ -5,12 +5,10 @@ body {
 body {
   display: flex;
   flex-direction: column;
-  width: 100%;
 }
 nav {
   width: 100%;
   background: red;
-
   height: 200px;
   flex: 1 0 auto;
   outline: 3px solid green;
@@ -38,15 +36,15 @@ ul li:hover {
   outline: 3px solid black;
 }
 h1 {
-  padding-left: 55px;
+  padding-left: 100px;
 }
 p {
   font-size: 22px;
-  padding: 10px 50px 20px 60px;
+  padding: 10px 80px 20px 100px;
 }
 footer {
   flex: 1 0 auto;
-  height: 50px;
+  height: 40px;
   width: 100%;
   font-size: 1rem;
   outline: 3px solid blue;
