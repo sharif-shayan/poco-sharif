@@ -1,55 +1,51 @@
-html, body{
-    height:100%;
-    text-align: left;
+html,
+body {
+  height: 100%;
+  text-align: left;
 }
-body{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    outline:1px solid green;
-    grid-template-rows: 50% 45% 5%;
-    
+body {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  outline: 1px solid green;
+  grid-template-rows: 50% 45% 5%;
 }
-header{
-    grid-column-start: 1;
-    grid-column-end: 4;
-    position: relative;
- 
+header {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  position: relative;
 }
-video{
-    position: absolute;
-    width:100%;
-    z-index: -1;
+video {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
 }
-nav{
-    background-color: aliceblue;
-    padding-left: 2rem;
-    grid-column-start: 1;
-    grid-column-end: 2;
-
+nav {
+  background-color: aliceblue;
+  padding-left: 2rem;
+  grid-column-start: 1;
+  grid-column-end: 2;
 }
-main{
-    background-color: rgb(219, 198, 210);
-    padding-left: 2rem;
-grid-column-start: 2;
-grid-column-end: 4;
-
+main {
+  background-color: rgb(219, 198, 210);
+  padding-left: 2rem;
+  grid-column-start: 2;
+  grid-column-end: 4;
 }
-footer{
-    grid-column-start: 1;
-    grid-column-end: 4;
-    
+footer {
+  grid-column-start: 1;
+  grid-column-end: 4;
 }
-h1{
-    background:rgb(212, 230, 214);
-    opacity: 0.8;
-    margin: 130px auto 0 auto;
-    padding:15px;
-    width:100%;
-    text-align: center;
+h1 {
+  background: rgb(212, 230, 214);
+  opacity: 0.4;
+  margin: 130px auto 0 auto;
+  padding: 15px;
+  width: 100%;
+  text-align: center;
 }
-p{
-    font-size: 1.5rem;
+p {
+  font-size: 1.5rem;
 }
-li{
-    font-size: 1.5rem;
+li {
+  font-size: 1.5rem;
 }
