@@ -6,7 +6,7 @@ body{
     margin: 0;
     color: black;
     text-align: center;
-    background-color: white; 
+    background-color: blue; 
 }
 h1{
     margin-bottom: 40px;
@@ -18,7 +18,7 @@ h1{
     padding: 0 5%;
     margin-bottom: 40px;
     width: 40%;
-    text-align: center;
+    text-align: left;
    
     
 }
@@ -30,18 +30,18 @@ h1{
     padding: 40px;
     width: 1120px;
     margin: 0 auto;
-    background-color: white;
+    background-color: gold;
    
 }
 .button{
     text-decoration: none;
     color: black;
     padding: 10px 40px;
-    border: 1px solid black;
+    border: 1px solid blue;
     display: inline-block;
 
 }
 .container h2{
-    background-color: white;
+    background-color: blueviolet;
 
 }
