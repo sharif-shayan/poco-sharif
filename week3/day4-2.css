@@ -1,0 +1,23 @@
+:required{ 
+    border: 3px solid black;
+}
+input {
+    background: white;
+}
+:empty{
+    background: lightpink;
+}
+:valid {
+    background: white;
+    border-color: green;
+}
+:invalid{
+    background-color: red;
+    border-color: red;
+}
+form:invalid{
+    background-color: white;
+}
+:checked{
+    background: green;
+}

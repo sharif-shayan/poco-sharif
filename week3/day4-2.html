@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+    <link rel="stylesheet" href="day4-2.css">
+</head>
+
+<body>
+    <form name="f5" action="/newsletter/" method="post">
+        <label for="f5firma">URL of your website</label><br>
+        <input type="url" name="f5[firma]" id="f5firma" placeholder="e.g. http://www.google.com">
+        <br><br>
+
+        <label for="f5anrede">Anrede*</label><br>
+        <select id="f5anrede" name="f5[anrede]" required>
+            <option value="">-</option>
+            <option value="Frau">Frau</option>
+            <option value="Herr">Herr</option>
+        </select>
+        <br><br>
+
+        <label for="f5vorname">Vorname*</label><br>
+        <input type="text" name="f5[vorname]" id="f5vorname" required>
+        <br><br>
+
+        <label for="f5name">Name*</label><br>
+        <input type="text" name="f5[name]" id="f5name" required>
+        <br><br>
+
+        <label for="f5email">E-Mail*</label><br>
+        <input type="email" name="f5[email]" id="f5email" required>
+        <br><br>
+
+        <label for="f5strasse">Strasse</label><br>
+        <input type="text" name="f5[strasse]" id="f5strasse">
+        <br><br>
+
+        <label for="f5plz">PLZ</label><br>
+        <input type="text" name="f5[plz]" id="f5plz">
+        <br><br>
+
+        <label for="f5ort">Ort</label><br>
+        <input type="text" name="f5[ort]" id="f5ort" autofocus autocomplete="off">
+        <br><br>
+
+        <label for="f5land2">Land</label><br>
+        <input type="text" name="f5[land2]" id="f5land2" list="countries">
+        <datalist id="countries">
+            <option value="Albanien">Albanien</option>
+            <option value="Andorra">Andorra</option>
+            <option value="Belgien">Belgien</option>
+            <option value="BA">Bosnien und Herzegowina</option>
+            <option value="BG">Bulgarien</option>
+            <option value="DK">Dänemark</option>
+            <option value="DE">Deutschland</option>
+            <option value="EE">Estland</option>
+        </datalist>
+        <br><br>
+
+        <label for="f5land">Land</label><br>
+        <select id="f5land" name="f5[land]">
+            <option value=""></option>
+            <option value="AL">Albanien</option>
+            <option value="AD">Andorra</option>
+            <option value="BE">Belgien</option>
+            <option value="BA">Bosnien und Herzegowina</option>
+            <option value="BG">Bulgarien</option>
+            <option value="DK">Dänemark</option>
+            <option value="DE">Deutschland</option>
+            <option value="EE">Estland</option>
+        </select>
+        <br><br>
+
+        <!--honeypot-->
+        <label for="f5nachname" class="required-field">Nachname</label><br>
+        <input type="text" name="f5[nachname]" id="f5nachname" class="required-field">
+        <br><br>
+
+        <input type="checkbox" value="1" name="terms" required>
+        <label class="checkbox" for= "terms"> I am agrre</label>
+        <br><br>
+
+        <input type="hidden" name="formName" value="f5">
+        <input type="hidden" name="entryid" value="5">
+        <input type="hidden" name="f5[sent]" value="1">
+        <input type="submit" name="f5[submit]" value="Send">
+    </form>
+</body>
+
+</html>
