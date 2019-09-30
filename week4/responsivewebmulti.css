@@ -1,0 +1,20 @@
+
+body{
+column-width: 250px;
+column-gap: 3em;
+column-rule: 5px solid green;
+}
+
+img{
+    height: auto;
+    width: auto;
+    margin: 1rem 0;
+    max-width: 100%;
+}
+@media only screen and (max-height:400px) and (max-width:400px){
+    main{
+        column-width: 100px;
+        column-count: 1;
+    }
+}
+
