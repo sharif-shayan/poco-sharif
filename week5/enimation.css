@@ -1,0 +1,14 @@
+main{
+    border: 1px solid red;
+    height: 90vh;
+    position: relative;
+    width: 90vw;
+}
+section {
+background-color: blue;
+height: 6em;
+position: absolute;
+width: 6em;
+left: 50;
+top: 0;
+}

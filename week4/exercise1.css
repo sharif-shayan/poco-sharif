@@ -1,0 +1,113 @@
+.Minubar {  /* this code is for mobile screen by default*/
+  background: blue;
+  flex: 0 0 100%;
+  height: 50px;
+  color: white;
+  text-align: center;
+  order: 1;
+}
+.Header {
+  background: lightblue;
+  height: 100px;
+  flex: 0 0 100%;
+  text-align: center;
+  order: 2;
+}
+main .content {
+  background: grey;
+  flex: 0 0 100%;
+  height: 300px;
+  order: 3;
+}
+main .signup {
+  background: lightcoral;
+  fheight: 80px;
+  order: 4;
+}
+main .feature1 {
+  background: lightgoldenrodyellow;
+  height: 100px;
+  order: 5;
+}
+main .feature2 {
+  background: rgb(106, 79, 204);
+  height: 100px;
+  order: 6;
+}
+main .feature3 {
+  background: rgb(192, 86, 15);
+  height: 100px;
+  order: 7;
+}
+
+/*for mobile screen*/
+main .content {
+  background-color: black;
+}
+
+@media (min-width: 500px) {
+  /*for tablet screen*/
+  main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  main .content {
+    background-color: rgb(18, 233, 64);
+  }
+  .Minubar {
+    order: 1;
+  }
+  .Minubar {
+    order: 2;
+  }
+  .content {
+    order: 3;
+  }
+  .signup {
+    order: 4;
+    flex: 0 0 50%;
+  }
+  .feature1 {
+    order: 5;
+    flex: 0 0 50%;
+  }
+  .feature2 {
+    order: 6;
+    flex: 0 0 50%;
+  }
+  .feature3 {
+    order: 7;
+    flex: 0 0 50%;
+  }
+}
+@media (min-width: 900px) { /* for pc screen*/
+  main .content {
+    background-color: white;
+  }
+  .Minubar {
+    order: 1;
+  }
+  .Header {
+    order: 2;
+  }
+  main .content {
+    order: 7;
+  }
+  main .signup {
+    order: 6;
+    flex: 0 0 100%;
+  }
+  main .feature1 {
+    order: 3;
+    flex: 0 0 33.333%;
+  }
+  main .feature2 {
+    order: 4;
+    flex: 0 0 33.333%;
+  }
+  main .feature3 {
+    order: 5;
+    flex: 0 0 33.333%;
+  }
+}

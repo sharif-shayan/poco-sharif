@@ -58,7 +58,7 @@ p {
 }
 footer {
   flex: 1 0 auto;
-  height: 40px;
+  height: 30px;
   width: 100%;
   font-size: 1rem;
   color: white;
@@ -90,7 +90,7 @@ footer {
   width: 1em;
   margin-right: .2em;
   text-align: center;
-  color:black;
+  color: white;
   
   font-variant: normal;
   text-transform: none;
