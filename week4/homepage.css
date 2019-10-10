@@ -25,6 +25,7 @@ nav{
 
 }
 main{
+    background-image: url("ProjectPics/pic17.jpg");
     background-color: rgb(219, 198, 210);
     padding-left: 2rem;
     grid-column-start: 2;
