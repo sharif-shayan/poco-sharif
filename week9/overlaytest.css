@@ -1,0 +1,47 @@
+h1 {
+  color: red;
+  text-align: center;
+  font-size: 50px;
+}
+p {
+  color: blue;
+  text-align: center;
+  font-size: 25px;
+}
+.container {
+  display: inline-block;
+  position: relative;
+  left: 30%;
+  width: 500px;
+  height: 500px;
+}
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 0;
+  width: 100%;
+  transition: 0.5s ease;
+  background-color: green;
+  overflow: hidden;
+}
+.container:hover .overlay {
+  height: 100%;
+}
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
